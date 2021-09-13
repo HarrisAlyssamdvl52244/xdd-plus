@@ -1,29 +1,31 @@
 mode: parallel
 containers:
-  - address: http://192.168.31.233:5700
+  - address: http://139.224.15.170:5700
     username: admin
-    password: admin
-    cid: admin
-    secret: admin
+    password: wl223344.
+    cid: yut7OjXR3_Ue
+    secret: -A67Hp6b44ZNCpq5dwQvKRJX
     weigth:  
     mode: parallel
     limit: 9999
 AtTime:  #填写1-12之间的数  填错自负默认为10  10点容易出现高峰超时。
 theme:  
 static: ./static
-master: 
-database:  
+master: jd_rqwCTbQHWdEk
+database: /root/ql/xdd-plus/.xdd.db 
 qywx_key:
 daily_push:
 resident:
 user_agent:
 telegram_bot_token:
 telegram_user_id:
-qquid:
-qqgid:
+qquid:1692743849
+qqgid:945234927
 qbot_public_mode: true
 default_priority:
 no_ghproxy: true
-daily_asset_push_cron:
+daily_asset_push_cron:0 9 * * *
 repos:
   - git: https://github.com/shufflewzc/faker2.git
+  - git: https://hub.fastgit.org/yuannian1112/jd_scripts.git
+  - git: https://github.com/smiek2221/scripts.git
